@@ -151,7 +151,6 @@ header nav ul li a:hover {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  height: 100vh;
   margin-bottom: 40vh;
 }
 
@@ -192,7 +191,7 @@ header nav ul li a:hover {
 
 /* ABOUT ME */
 #about-me {
-  margin-top: 20vh;
+  padding-top: 20vh;
 }
 
 #about-me .heading-box p::before {
@@ -202,7 +201,7 @@ header nav ul li a:hover {
 /* TECHNOLOGIES */
 #technologies {
   text-align: center;
-  margin-top: 20vh;
+  padding-top: 20vh;
 }
 
 #technologies .heading-box p::before {
@@ -291,7 +290,7 @@ header nav ul li a:hover {
 }
 
 #projects {
-  margin-top: 20vh;
+  padding-top: 20vh;
   text-align: right;
 }
 

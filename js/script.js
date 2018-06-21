@@ -43,10 +43,16 @@ $(function(){
 		sectionContact.hide(1000);
 		visible.toggle(1000);
 	})
-
-	$('.menu').on('click', function(event) {
-		var menuList = $('ul');
+	var menuList = $('ul');
+	$('.menu').on('click', function(event) {		
 		menuList.toggle();
+	});
+
+	$('li').on('click', function(event) {	
+		if(window.outerWidth < 769) {
+  			menuList.toggle();
+    	}
+		
 	});
 
 	$("a").on('click', function(event) {

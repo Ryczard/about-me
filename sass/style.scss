@@ -132,7 +132,7 @@ header {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	height: 100vh;	
+
 	margin-bottom: 40vh;
 }
 .offset {
@@ -167,7 +167,7 @@ header {
 }
 /* ABOUT ME */
 #about-me {
-	margin-top: 20vh;
+	padding-top: 20vh;
 	.heading-box p::before {
 		width: 100px;
 	}
@@ -175,7 +175,7 @@ header {
 /* TECHNOLOGIES */
 #technologies {
 	text-align: center;
-	margin-top: 20vh;
+	padding-top: 20vh;
 	.heading-box p::before {
 		width: 320px;
 	}
@@ -247,7 +247,7 @@ header {
 	width: 100%;
 }
 #projects {
-	margin-top: 20vh;
+	padding-top: 20vh;
 	text-align: right;
 	.heading-box p::before {
 		width: 145px;
