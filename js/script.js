@@ -44,6 +44,11 @@ $(function(){
 		visible.toggle(1000);
 	})
 
+	$('.menu').on('click', function(event) {
+		var menuList = $('ul');
+		menuList.toggle();
+	});
+
 	$("a").on('click', function(event) {
     	if (this.hash !== "") {    
       		event.preventDefault();
