@@ -375,7 +375,7 @@ header nav ul li a:hover {
   top: 0;
   text-align: center;
   z-index: 30;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .fa-chevron-right {
