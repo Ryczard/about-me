@@ -304,7 +304,6 @@ header {
 .footer-container {
 	max-width: 1200px;
 	margin: 0 auto;
-	height: 10vh;
 	padding-left: 20px;
 	h3 {
 		padding-top: 15px;
@@ -363,29 +362,31 @@ header {
 }
 /* MEDIA */
 @media (max-width: 768px) {
-	
-	nav {
-		float: right;
-		padding: 20px;
-		&:hover ul {
-			display: block;
-		}
-		ul {
-			display: none;
-			position: absolute;
-			right: 20px;
-			top: 60px;
-			width: 50%;
+	header {
+		padding-bottom: 90px;
+		nav {
+			float: right;
 			padding: 20px;
-			float: none;
-			li {
-				text-align: center;
-				width: 100%;
-				padding: 10px 0;
-				margin: 0 30px;
-				a {
+			&:hover ul {
+				display: block;
+			}
+			ul {
+				display: none;
+				position: absolute;
+				right: 20px;
+				top: 60px;
+				width: 50%;
+				padding: 20px;
+				float: none;
+				li {
+					text-align: center;
 					width: 100%;
-					display: block;
+					padding: 10px 0;
+					margin: 0 30px;
+					a {
+						width: 100%;
+						display: block;
+					}
 				}
 			}
 		}
@@ -399,11 +400,29 @@ header {
 	.offset {
 		margin-left: 0;
 	}
+	.heading-box h1 {
+		font-size: 40px;
+	}
 	#about-me, #projects {
 		text-align: center;
 	}
+	#about-me {
+		.heading-box p::before {
+		width: 25px;
+		}
+	}
 	#about-me > p {
 		padding: 20px 30px;
+	}
+	#technologies {
+		.heading-box p::before {
+		width: 170px;
+		}
+	}
+	#projects {
+		.heading-box p::before {
+		width: 35px;
+		}
 	}
 	.project {
 		margin-right: 0;
