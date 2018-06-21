@@ -319,9 +319,26 @@ header {
 	text-align: center;
 	z-index: 30;
 	overflow-x: hidden;
+	.heading-box {
+		color: #c7ecee;
+	}
+}
+.contact-particles {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-color: #535c68;
 }
 .fa-chevron-right {
 	font-size: 50px;
+	color: #c7ecee;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 25px;
+	border-radius: 20px;
 }
 .contact-cell {
 	margin: 0 auto;
@@ -329,6 +346,7 @@ header {
 	background-color: white;
 	margin-top: 5vh;
 	padding: 30px;
+	background-color: #c7ecee;
 	h3 {
 		margin-top: 0;
 	}
