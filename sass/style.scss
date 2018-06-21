@@ -319,6 +319,7 @@ header {
 	text-align: center;
 	z-index: 30;
 	overflow-x: hidden;	
+    background-color: #535c68;
 	.heading-box {
 		color: #c7ecee;
 	}
@@ -328,7 +329,7 @@ header {
     height: 100%;
     position: absolute;
     z-index: -1;
-    background-color: #535c68;
+ 
 }
 .fa-chevron-right {
 	font-size: 50px;
@@ -451,5 +452,9 @@ header {
 	}
 	.project {
 		margin-right: 0;
+	}
+	.fa-chevron-right {
+		font-size: 30px;
+		padding: 10px;
 	}
 }

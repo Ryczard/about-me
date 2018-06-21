@@ -376,6 +376,7 @@ header nav ul li a:hover {
   text-align: center;
   z-index: 30;
   overflow-x: hidden;
+  background-color: #535c68;
 }
 
 .contact-container .heading-box {
@@ -387,7 +388,6 @@ header nav ul li a:hover {
   height: 100%;
   position: absolute;
   z-index: -1;
-  background-color: #535c68;
 }
 
 .fa-chevron-right {
@@ -526,6 +526,10 @@ header nav ul li a:hover {
   }
   .project {
     margin-right: 0;
+  }
+  .fa-chevron-right {
+    font-size: 30px;
+    padding: 10px;
   }
 }
 
