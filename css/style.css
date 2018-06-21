@@ -473,8 +473,14 @@ header nav ul li a:hover {
   .menu {
     display: inline-block;
   }
+  .kr {
+    line-height: 0;
+  }
   .niceportrait {
     position: absolute;
+  }
+  .container {
+    margin-bottom: 10vh;
   }
   .offset {
     margin-left: 0;
