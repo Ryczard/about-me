@@ -350,6 +350,9 @@ header {
 	h3 {
 		margin-top: 0;
 	}
+	&:last-child {
+		margin-bottom: 5vh;
+	}
 }
 .social a {
 	width: 60px;
