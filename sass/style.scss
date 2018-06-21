@@ -167,7 +167,7 @@ header {
 }
 /* ABOUT ME */
 #about-me {
-	padding-top: 20vh;
+	margin-top: 20vh;
 	.heading-box p::before {
 		width: 100px;
 	}
@@ -175,7 +175,7 @@ header {
 /* TECHNOLOGIES */
 #technologies {
 	text-align: center;
-	padding-top: 20vh;
+	margin-top: 20vh;
 	.heading-box p::before {
 		width: 320px;
 	}
@@ -246,7 +246,7 @@ header {
 	width: 100%;
 }
 #projects {
-	padding-top: 20vh;
+	margin-top: 20vh;
 	text-align: right;
 	.heading-box p::before {
 		width: 145px;

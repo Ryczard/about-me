@@ -192,7 +192,7 @@ header nav ul li a:hover {
 
 /* ABOUT ME */
 #about-me {
-  padding-top: 20vh;
+  margin-top: 20vh;
 }
 
 #about-me .heading-box p::before {
@@ -202,7 +202,7 @@ header nav ul li a:hover {
 /* TECHNOLOGIES */
 #technologies {
   text-align: center;
-  padding-top: 20vh;
+  margin-top: 20vh;
 }
 
 #technologies .heading-box p::before {
@@ -290,7 +290,7 @@ header nav ul li a:hover {
 }
 
 #projects {
-  padding-top: 20vh;
+  margin-top: 20vh;
   text-align: right;
 }
 
