@@ -20,14 +20,14 @@ header {
   z-index: 20;
   top: 0;
   width: 100%;
-  max-height: 15vh;
   background-color: white;
   padding-top: 50px;
-  padding-bottom: 160px;
+  padding-bottom: 10vh;
   box-shadow: 0 0 25px 10px white;
 }
 
 header nav {
+  margin-top: -40px;
   float: right;
 }
 
@@ -69,7 +69,6 @@ header nav ul li a:hover {
 }
 
 .kr {
-  line-height: 60px;
   margin: 20px;
   font-size: 1.5rem;
   padding: 25px;
@@ -338,7 +337,7 @@ header nav ul li a:hover {
 }
 
 .project-content h3 {
-  margin: 80px 20px;
+  margin: 80px 20px 40px 20px;
 }
 
 .project-content a {
@@ -376,11 +375,10 @@ header nav ul li a:hover {
   top: 0;
   text-align: center;
   z-index: 30;
-  background-color: grey;
   overflow: hidden;
 }
 
-.fa-chevron-left {
+.fa-chevron-right {
   font-size: 50px;
 }
 
