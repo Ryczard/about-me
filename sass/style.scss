@@ -318,7 +318,7 @@ header {
 	top: 0;
 	text-align: center;
 	z-index: 30;
-	overflow-x: hidden;
+	overflow-x: hidden;	
 	.heading-box {
 		color: #c7ecee;
 	}
@@ -383,7 +383,7 @@ header {
 /* MEDIA */
 @media (max-width: 768px) {
 	header {
-		padding-bottom: 90px;
+		padding-bottom: 5vh;
 		nav {
 			float: right;
 			padding: 20px;
