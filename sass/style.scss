@@ -80,9 +80,6 @@ header {
 		background-position: 0 100%;
 	}
 }
-.menu {
-	font-size: 36px;
-}
 /* HERO */
 .hero {
 	margin-top: 15vh;
@@ -400,7 +397,8 @@ header {
 /* MEDIA */
 @media (max-width: 768px) {
 	header {
-		padding-bottom: 5vh;
+		padding-top: 35px;
+		padding-bottom: 10px;
 		nav {
 			float: right;
 			padding: 20px;
@@ -428,9 +426,12 @@ header {
 	.menu {
 		z-index: 20;
 		display: inline-block;
+		font-size: 30px
 	}
 	.kr {
 		line-height: 0;
+		padding: 20px;
+		margin: 10px;
 	}
 	.niceportrait {
 		position: absolute;
@@ -440,6 +441,16 @@ header {
 	}
 	.offset {
 		margin-left: 0;
+	}
+	#about-me {
+		margin-top: 40px;
+		padding-top: 10vh;
+	}
+	#technologies {
+		padding-top: 10vh;
+	}
+	#projects {
+		padding-top: 10vh;
 	}
 	.heading-box h1 {
 		font-size: 40px;
@@ -467,6 +478,11 @@ header {
 	}
 	.project {
 		margin-right: 0;
+	}
+	.project-content {
+		h3 {
+			margin-top: 40px;
+		}
 	}
 	.fa-chevron-right {
 		font-size: 30px;
