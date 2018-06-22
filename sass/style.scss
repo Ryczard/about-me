@@ -8,7 +8,6 @@ p {
 body {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
-	display: none;
 	overflow-x: hidden;
 }
 /* NAVIGATION */
@@ -82,7 +81,6 @@ header {
 	}
 }
 .menu {
-	display: none;
 	font-size: 36px;
 }
 /* HERO */
@@ -131,7 +129,6 @@ header {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-
 	margin-bottom: 40vh;
 }
 .offset {
@@ -275,7 +272,7 @@ header {
     position: absolute;
     width: 100%;
     height: 110%;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0,0,0, 0.8);
     top: 97%;
     transform: skewY(1.5deg);
     transition-duration: .5s;    
@@ -286,14 +283,23 @@ header {
 	color: #c7ecee;
 	h3 {
 		margin: 80px 20px 40px 20px;
+		font-weight: 700;
 	}
 	a {
 		margin: 20px 10px;
 		font-size: 30px;
 		color: #c7ecee;
 	}
-	p {
+	.project-description {
 		margin: 20px 40px;
+	}
+	.project-technologies {
+		display: inline-block;
+    	padding: 5px;
+    	background-color: #95afc0;
+    	color: #535c68;
+    	margin: 5px;
+    	font-weight: 700;
 	}
 }
 /* FOOTER */
@@ -307,6 +313,9 @@ header {
 	padding-left: 20px;
 	h3 {
 		padding-top: 15px;
+	}
+	p {
+		padding-bottom: 20px;
 	}
 }
 /* CONTACT */
@@ -326,7 +335,7 @@ header {
 }
 .contact-particles {
     width: 100%;
-    height: 100%;
+    height: 99%;
     position: absolute;
     z-index: -1;
  
@@ -361,9 +370,16 @@ header {
 	line-height: 60px;
 	margin: 0 5px;
 	font-size: 22px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: 700;
 	display: inline-block;
-	color: blue;
-	background-color: blue;
+	color: #c7ecee;
+	background-color: #535c68;
+	&:hover {
+		color: #535c68;
+		background-color: #c7ecee;
+	}
 }
 .moveFromRight {
 	animation: moveFromRight 1s ease;
@@ -389,7 +405,6 @@ header {
 			float: right;
 			padding: 20px;
 			ul {
-				display: none;
 				position: absolute;
 				right: 20px;
 				top: 60px;

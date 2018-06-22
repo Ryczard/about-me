@@ -23,7 +23,6 @@ $(function(){
     	}
 	});
 	
-	var goBack = $('#back-home');
 	var sectionContact = $('#section-contact');
 	var visible = $('.visible');
 
@@ -43,6 +42,17 @@ $(function(){
 		sectionContact.hide(1000);
 		visible.toggle(1000);
 	})
+
+	showMenu();
+
+	function showMenu() {
+		if (window.outerWidth < 769) {
+			$('.menu').show();
+		} else {
+			$('.menu').hide();
+		}
+	}
+
 	var menuList = $('ul');
 	$('.menu').on('click', function(event) {		
 		menuList.toggle();
