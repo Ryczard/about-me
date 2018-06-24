@@ -191,6 +191,12 @@ header nav ul li a:hover {
   width: 100px;
 }
 
+#about-me > p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
 /* TECHNOLOGIES */
 #technologies {
   text-align: center;
@@ -431,13 +437,16 @@ header nav ul li a:hover {
   height: 60px;
   line-height: 60px;
   margin: 0 5px;
-  font-size: 22px;
+  font-size: 28px;
   border-radius: 5px;
   text-decoration: none;
-  font-weight: 700;
   display: inline-block;
   color: #c7ecee;
   background-color: #535c68;
+}
+
+.social a:first-child {
+  font-weight: 700;
 }
 
 .social a:hover {

@@ -47,8 +47,9 @@ $(function(){
 
 	function showMenu() {
 		if (window.outerWidth < 769) {
-			$('.menu').show();
 			$('ul').hide();
+			$('.menu').show();
+			
 		} else {
 			$('.menu').hide();
 		}
