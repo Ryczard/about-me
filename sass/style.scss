@@ -26,7 +26,6 @@ header {
 		ul {
 			list-style-type: none;
 			li {
-				display: inline-block;
 				float: left;
 				a {
 					font-size: 1.5rem;
@@ -416,19 +415,23 @@ header {
 				right: 0px;
 				top: 20px;
 				width: auto;
-				padding: 20px 20px 0 20px;
+				padding-top: 20px;
+				padding-left: 0;
 				float: none;
 				margin-top: 60px;
 				margin-bottom: 0px;
 				li {
-
 					text-align: center;
 					width: 100%;
-					padding: 10px 0;
-					margin-left: 30px;
+					&:first-child a {
+						border-top: 2px solid;
+					}				
 					a {
+						border-left: none;
+						border-bottom-left-radius:: 0px;
 						width: 100%;
 						display: block;
+						
 					}
 				}
 			}
