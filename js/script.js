@@ -43,28 +43,9 @@ $(function(){
 		visible.toggle(1000);
 	})
 
-	showMenu();
-
-	function showMenu() {
-		if (window.outerWidth < 769) {
-			$('ul').hide();
-			$('.menu').show();
-			
-		} else {
-			$('.menu').hide();
-		}
-	}
-
 	var menuList = $('ul');
 	$('.menu').on('click', function(event) {		
 		menuList.toggle();
-	});
-
-	$('li').on('click', function(event) {	
-		if(window.outerWidth < 769) {
-  			menuList.toggle();
-    	}
-		
 	});
 
 	$("a").on('click', function(event) {
@@ -79,8 +60,6 @@ $(function(){
       		});
     	}
   	});
-
-
 
 });
 
