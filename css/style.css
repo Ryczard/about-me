@@ -58,9 +58,6 @@ header nav ul li a {
   box-shadow: -5px 5px 5px #808080;
   text-shadow: 2px 2px 4px #000000;
   text-transform: uppercase;
-  border-left: 2px solid;
-  border-bottom: 2px solid;
-  border-bottom-left-radius: 50px;
   background-image: linear-gradient(45deg, #2f3542 50%, transparent 50%);
 }
 
